@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a{
+    color:#000;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    background: #fff;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+.SDU_logo{
+    width: 10%;
+}
+
+.SDU_logo img{
+    position: absolute;
+    left: 30px;
+    top: 27px;
+    width: auto;
+    height: 18px;
+    transform: translateY(-50%);
+}
+
+#logo2{
+    left: 110px;
+    height: 15px;
+    border-left: black solid 1px;
+    padding-left: 10px;
+}
+
+.header_menu{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    margin: 0 150px;
+}
+
+.header_menu > ul > a{
+    margin: 0 18px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-weight: 400;
+    color: #000;
+}
+
+.header_menu > ul > a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 13px;
+}
+
+
+
+.header_buttons{
+    display: flex;
+    width: 10%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 53px;
+    padding: 0 0 5px 0;
+}
+
+.header_buttons a{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.header_buttons h6{
+    font-weight: 800;
+    text-align: center;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    height: 800px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filter{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.search{
+    display: inline-block;
+    width: 70%;
+    height: 3.8em;
+    margin: 80px 0px 10px 0;
+    padding: 7px;
+    background-color: #e8e8e8;
+    line-height: normal;
+}
+
+#searchContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 6px;
+    background-color: white;
+}
+#search_field{
+    padding-left: 10px;
+    width: 70%;
+    border: none;
+}
+#newPost{
+    float: left;
+    height: 100%;
+    cursor: pointer;
+    color: #000;
+    border: none;
+    background-color: #e8e8e8;
+    border-bottom: 2px solid #e8e8e8;
+    margin: 0 3em 0 1em;
+}
+#newPost:hover{
+    border-bottom: 2px solid black;
+}
+
+#newPost i{
+    font-size: 23px;
+    font-family: Arial;
+    vertical-align: -14%;
+}
+
+#category{
+    height: 100%;
+    float: right;
+    background-color: white;
+    border: none;
+    border-left: 1px solid black;
+}
+
+#searchBtn{
+    transform: scale(80%);
+}
+
+#searchBtn:hover{
+    cursor: pointer;
+}
+.filterOptions{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 20px auto;
+}
+.filterOptions > input:hover{
+    cursor: pointer;
+}
+
+.filterOptions > label{
+    margin: 0 2em 0 5px;
+    border-bottom: 2px solid white;
+}
+
+.filterOptions > label:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.post{
+    display: grid;
+    border: black 2px solid;
+    grid-template-columns: 3fr 8fr 2fr;
+    background-color: orange;
+    height: 120px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.post:hover{
+    cursor: pointer;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.image img{
+    height: 120px;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.two{
+    height: 100%;
+    background-color: white;
+   }
+.two > h5{
+       text-align: center;
+       margin: 5px 0 10px 0;
+       font-size: 16px;
+   }
+
+   .two > h3{
+    margin: 0 8px 0 8px;
+    font-size: 12px;
+}
+
+.three{
+    height: 100%;
+    background-color: #e8e8e8;
+   }
+   .three h5{
+       text-align: center;
+       font-size: 12px;
+       padding: 10px 0;
+   }
+   .three h4{
+       padding-top: 8px;
+    text-align: end;
+    float: bottom;
+    font-size: 12px;
+}
+.save{
+    height: 100%;
+}
+.save > a{
+    float: right;
+}
+

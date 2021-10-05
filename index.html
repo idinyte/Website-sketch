@@ -2,9 +2,256 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <script src="script.js" defer></script>
+  <header class="header">
+    <div class="SDU_logo">
+      <a href="#">
+        <img src="https://www.sdu.dk/-/media/files/nyheder/logoer/sdu_black_rgb_png.png" alt="SDU Logo">
+      </a>
+      <a href="#">
+        <img id="logo2" src="logo2.png" alt="SDU Logo">
+      </a>
+    </div>
+    <nav class="header_menu">
+      <ul>
+        <a href="#">Collaborate</a>
+        <a href="#">Forum</a>
+        <a href="#">Our team</a>
+        <a href="#">Impact</a>
+        <a href="#">Inspiration</a>
+        <a href="#">News</a>
+        <a href="#">About</a>
+      </ul>
+    </nav>
+    <div class="header_buttons" >
+      <div id="search">
+        <a href="#"><span class="material-icons-outlined">
+          search
+          </span></a>
+          <h6>
+            Search
+          </h6>
+      </div>
+      <div id="search">
+
+      </div>
+      <div id="log_in">
+        <a href="#"><span class="material-icons-outlined">
+          account_circle
+          </span></a>
+          <h6>
+            Log in
+          </h6>
+      </div>
+      <div id="menu">
+        <a href="#"><span class="material-icons-outlined">
+          menu
+          </span></a>
+          <h6>
+            Menu
+          </h6>
+      </div>
+    </div>
+  </header>
+  <div class="body">
+    <div class="filter">
+      <div class="search">
+        <button type="button" id="newPost"> <i>+</i> New</button>
+        <div id="searchContainer">
+          <input type="text" id="search_field"placeholder="Search">
+          <select id="category" name="goals">
+          <option value="All">All goals</option>
+          <option value="Powerty">Powerty</option>
+          <option value="Hunger">Hunger</option>
+          <option value="Health">Health</option>
+          <option value="Education">Education</option>
+          <option value="Gender_equality">Gender equality</option>
+          <option value="Water_and_sanitation">Water and sanitation</option>
+          <option value="Energy">Energy</option>
+          <option value="Econimics">Econimics</option>
+          <option value="Industry_and_inovation">Industry and inovation</option>
+          <option value="Inequality">Inequality</option>
+          <option value="Sustainable_cities">Sustainable cities</option>
+          <option value="Consumption_and_production">Consumption and production</option>
+          <option value="Climate">Climate</option>
+          <option value="Sea_life">Life under sea</option>
+          <option value="Land_life">Life on land</option>
+          <option value="Peace_and_justice">Peace and justice</option>
+          <option value="Partnerships">Partnerships</option>
+        </select>
+        <span class="material-icons-outlined" id="searchBtn">
+          search
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="filterOptions">
+      <input type="checkbox" id="filterOption" name="option1" value="Filter Option">
+      <label for="option1">Filter Option</label><br>
+      <input type="checkbox" id="filterOption" name="option1" value="Filter Option">
+      <label for="option1">Filter Option</label><br>
+      <input type="checkbox" id="filterOption" name="option1" value="Filter Option">
+      <label for="option1">Filter Option</label><br>
+      <input type="checkbox" id="filterOption" name="option1" value="Filter Option">
+      <label for="option1">Filter Option</label><br>
+      <input type="checkbox" id="filterOption" name="option1" value="Filter Option">
+      <label for="option1">Filter Option</label><br>
+    </div>
+
+    <div class="post">
+      <div class="image" class="one"> 
+        <img src="https://images.theconversation.com/files/168978/original/file-20170511-32618-121i8zo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="researcher">
+      </div>
+      <div class="two">
+        <h5>Invest in sustainable food research</h5>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+      </div>
+      <div class="three">
+        <div class="save">
+          <a href=""><span class="material-icons" >
+            bookmark_border
+            </span></a>
+            <h5></h5>
+          <h5>SDG: Hunger</h5>
+          <h5>Find investors</h5>
+          <h4>2021-10-05</h4>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="post">
+      <div class="image" class="one"> 
+        <img src="https://images.theconversation.com/files/168978/original/file-20170511-32618-121i8zo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="researcher">
+      </div>
+      <div class="two">
+        <h5>Invest in sustainable energy research</h5>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+      </div>
+      <div class="three">
+        <div class="save">
+          <a href=""><span class="material-icons" >
+            bookmark_border
+            </span></a>
+            <h5></h5>
+          <h5>SDG: Energy</h5>
+          <h5>Find investors</h5>
+          <h4>2021-10-04</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="image" class="one"> 
+        <img src="https://www.abjadinvest.com/img/photos/106900f918c46932605eb360-1553518839.jpg" alt="researcher">
+      </div>
+      <div class="two">
+        <h5>Looking for researchers specialized in solar cells</h5>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+      </div>
+      <div class="three">
+        <div class="save">
+          <a href=""><span class="material-icons" >
+            bookmark_border
+            </span></a>
+            <h5></h5>
+          <h5>SDG: Energy</h5>
+          <h5>Find researchers</h5>
+          <h4>2021-10-02</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="image" class="one"> 
+        <img src="https://images.theconversation.com/files/168978/original/file-20170511-32618-121i8zo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="researcher">
+      </div>
+      <div class="two">
+        <h5>Lorem ipsum dolor sit amet</h5>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+      </div>
+      <div class="three">
+        <div class="save">
+          <a href=""><span class="material-icons" >
+            bookmark_border
+            </span></a>
+            <h5></h5>
+          <h5>SDG: Hunger</h5>
+          <h5>Find investors</h5>
+          <h4>2021-10-01</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="image" class="one"> 
+        <img src="https://www.abjadinvest.com/img/photos/106900f918c46932605eb360-1553518839.jpg" alt="researcher">
+      </div>
+      <div class="two">
+        <h5>Lorem ipsum dolor sit amet</h5>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+      </div>
+      <div class="three">
+        <div class="save">
+          <a href=""><span class="material-icons" >
+            bookmark_border
+            </span></a>
+            <h5></h5>
+          <h5>SDG: Hunger</h5>
+          <h5>Find investors</h5>
+          <h4>2021-10-01</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="image" class="one"> 
+        <img src="https://www.abjadinvest.com/img/photos/106900f918c46932605eb360-1553518839.jpg" alt="researcher">
+      </div>
+      <div class="two">
+        <h5>Lorem ipsum dolor sit amet</h5>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+      </div>
+      <div class="three">
+        <div class="save">
+          <a href=""><span class="material-icons" >
+            bookmark_border
+            </span></a>
+            <h5></h5>
+          <h5>SDG: Hunger</h5>
+          <h5>Find investors</h5>
+          <h4>2021-10-01</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="image" class="one"> 
+        <img src="https://images.theconversation.com/files/168978/original/file-20170511-32618-121i8zo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="researcher">
+      </div>
+      <div class="two">
+        <h5>Lorem ipsum dolor sit amet</h5>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+      </div>
+      <div class="three">
+        <div class="save">
+          <a href=""><span class="material-icons" >
+            bookmark_border
+            </span></a>
+            <h5></h5>
+          <h5>SDG: Hunger</h5>
+          <h5>Find investors</h5>
+          <h4>2021-10-01</h4>
+        </div>
+      </div>
+    </div>
+  
+
 </body>
+
 </html>
