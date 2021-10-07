@@ -1,0 +1,1 @@
+A quickly put up and horribly written webpage to see possible design. [website](https://idinyte.github.io/Website-sketch/)
