@@ -205,7 +205,7 @@ a{
     height: auto;
     width: 50%;
     margin-top: 20px;
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.1);
 }
 
 .image{
@@ -285,5 +285,32 @@ a{
     background-color: white;
     border: 1px solid black;
     padding: 3px;
+}
+
+#red{
+    color: red;
+    font-size: 11px;
+}
+#red:hover{
+    border: none;
+    cursor:text;
+}
+
+#Bold{
+    font-weight: 900;
+    font-size: 11px;
+    color: black;
+}
+
+#Bold:hover{
+    border: none;
+    cursor:text;
+}
+
+h1{
+    font-size: 15px;
+    padding-top: 35px;
+    text-align: center;
+    transform: translateX(-10%)
 }
 
